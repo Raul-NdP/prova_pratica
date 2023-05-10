@@ -21,9 +21,9 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       initialRoute: "/pgMoedas",
       routes: {
-        "/pgMoedas" :(context) => PgMoedas(),
-        "/pgAcoes" :(context) => PgAcoes(),
-        "/pgBitcoin" :(context) => PgBitcoin()
+        "/pgMoedas": (context) => const PgMoedas(),
+        "/pgAcoes": (context) => const PgAcoes(),
+        "/pgBitcoin": (context) => const PgBitcoin()
       },
     );
   }
