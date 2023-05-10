@@ -64,6 +64,7 @@ class _PgAcoesState extends State<PgAcoes> {
   }
 
   _criaBody() {
+    _buscarAcoes();
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Column(
@@ -79,6 +80,7 @@ class _PgAcoesState extends State<PgAcoes> {
                   borderRadius: BorderRadius.circular(10)
               ),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Column(
                     children: [
